@@ -2,9 +2,61 @@ body {
   min-height: 2000px;
   padding-top: 70px;
 }
-#general{
+#image{
 	 text-align: center;
 }
 #graph{
 	margin: 60px 20px 60px 20px;
+}
+.image { 
+/*	width: 100%;*/
+		 text-align: center;
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+.image img{
+
+}
+
+h3 { 
+   position: absolute; 
+   top: 20px; 
+   right: 50px; 
+   width: 100%; 
+   color: white;
+
+ /*    color: rgba(191, 62, 17, 1.0);
+*/     text-shadow: 1px 1px 1px rgba(191, 62, 17, 1);
+   /*  background: white;*/
+}
+h3 span { 
+   color: white; 
+  /* font: bold 24px/45px Helvetica, Sans-Serif; */
+  /* letter-spacing: -1px;  */
+  line-height: 60px;
+/*   background: #bf3e11); 
+   background: rgba(191, 62, 17, 1.0);
+   padding-left: 20px;*/
+   padding: 20px; 
+      background: rgba(191, 62, 17, 1.0);
+
+}
+.navbar-brand{
+	color: #DFC68D!important;
+}
+h2{
+	text-align: center;
+margin-top: 50px;
+color: rgba(191, 62, 17, 1.0);
+}
+#promo{
+		text-align: center;
+}
+object{
+	padding: 50px 50px 50px 50px;
+	color: #00FF00;
+	fill: #ff0000;
+}
+#green{
+	color: #00FF00;
 }
